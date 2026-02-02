@@ -19,6 +19,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Subtraction should work correctly")
     fun testSubtract() {
+        // test comment
         assertEquals(0, calculator.subtract(3, 3))
         assertEquals(-10, calculator.subtract(-5, 5))
         assertEquals(0, calculator.subtract(-5, -5))
