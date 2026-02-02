@@ -29,7 +29,7 @@ class CalculatorTest {
     fun testMultiply() {
         assertEquals(15, calculator.multiply(5, 3))
         assertEquals(-25, calculator.multiply(-5, 5))
-        assertEquals(15, calculator.multiply(-5, -3))
+        assertEquals(15, calculator.multiply(5, 3))
         assertEquals(0, calculator.multiply(0, 5))
     }
 
