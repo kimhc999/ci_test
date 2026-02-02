@@ -12,7 +12,7 @@ class CalculatorTest {
     @DisplayName("Addition should work correctly")
     fun testAdd() {
         assertEquals(8, calculator.add(5, 3))
-        assertEquals(0, calculator.add(-5, 5))
+        assertEquals(3, calculator.add(-2, 5))
         assertEquals(-8, calculator.add(-5, -3))
     }
 
