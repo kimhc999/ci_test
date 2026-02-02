@@ -13,7 +13,7 @@ class CalculatorTest {
     fun testAdd() {
         assertEquals(8, calculator.add(5, 3))
         assertEquals(0, calculator.add(-5, 5))
-        assertEquals(-8, calculator.add(-5, -3))
+        assertEquals(-6, calculator.add(-5, -1))
     }
 
     @Test
